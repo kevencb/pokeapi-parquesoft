@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo{
+    margin-bottom: 32px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    max-width: 360px;
+}
+
+input[type="text"]{
+    padding: 16px 20px;
+    border-radius: 48px;
+    border: 1px solid #444;
+    font-size: 16px;
+}
+
+button{
+    background-color:#444;
+    border: none;
+    border-radius: 48px;
+    padding: 16px;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #eee;
+}
+
+#pokemonInfo{
+    margin: 48px;
+    h2{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
